@@ -52,7 +52,7 @@ public class DemoController {
         return new HashMap<>();
     }
 
-    private static final String REPLACEMENT_BANNER_TEXT="Spring Sensors JNG1.1";
+    private static final String REPLACEMENT_BANNER_TEXT="Spring Sensors JNG1.2";
 
     @RequestMapping("/refresh")
     public @ResponseBody SensorData refresh() {
